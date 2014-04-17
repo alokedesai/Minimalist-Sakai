@@ -8,10 +8,15 @@
     "icons": ["icon.png"],
     "default_icon": "icon.png"
   },
-  "content_scripts": [ {
-    "js": [ "jquery.min.js", "background.js" ],
+  "content_scripts": [ 
+  // {
+  //   "js": [ "jquery.min.js", "login.js" ],
+  //   "css": ["customStyles.css", "bootstrap.css"],
+  //   "matches": [ "http://sakai.claremont.edu/portal/login/*", "https://sakai.claremont.edu/portal/login/*"]
+  // }, 
+  {"js": [ "jquery.min.js", "background.js" ],
     "css": ["customStyles.css", "bootstrap.css"],
-    "matches": [ "http://sakai.claremont.edu/*", "https://sakai.claremont.edu/*"]
-  }],
+    "matches": [ "http://sakai.claremont.edu/*", "https://sakai.claremont.edu/*"]}
+  ],
    "web_accessible_resources": ["customStyles.css", "bootstrap.css"]
 }
