@@ -23,7 +23,7 @@
 	vertical-align: top;
 }
 body{
-	font-family: "Lato";
+	font-family: "Lato" !important;
 }
 #header{
 	margin-bottom: 0px;
@@ -47,4 +47,17 @@ label{
 	width: 100%;
 	text-align: center;
 	background-image: none;
+}
+#siteLinkList li span{
+	background-image: url("tab-right.gif");
+}
+#siteLinkList li a, #siteLinkList li a:link{
+	background-image: url("tab-left.gif");
+}
+.siteNavWrap{
+	background-color: #fff;
+}
+.portletTitle .title h2{
+	font-family: "Lato";
+	color: inherit;
 }
