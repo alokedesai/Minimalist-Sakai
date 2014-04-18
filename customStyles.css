@@ -61,3 +61,52 @@ label{
 	font-family: "Lato";
 	color: inherit;
 }
+/*blue borders */
+
+#col1of2 .portletTitleWrap, #col2of2 .portletTitleWrap, #col1 .portletTitleWrap {
+	border-color: rgb(44,62,80);
+}
+#footer{
+border-color: rgb(44,62,80);
+}
+/*change icons to glyphocons*/
+.icon-sakai-motd, .icon-sakai-iframe-site{
+	background-image: url("img/home.png")
+}
+.icon-sakai-announcements{
+	background-image: url("img/flag.png");
+}
+.icon-sakai-schedule{
+	background-image: url("img/calendar.png");
+}
+.icon-sakai-resources{
+	background-image: url("img/folder_open.png");
+}
+.icon-sakai-sitesetup {
+	background-image: url("img/keyboard_wireless.png");
+}
+.icon-sakai-preferences{
+	background-image: url("img/cogwheel.png");
+}
+.icon-sakai-singleuser {
+	background-image: url("img/user.png");
+}
+.icon-sakai-help{
+	background-image: url("img/circle_question_mark.png");
+}
+.icon-sakai-membership{
+	background-image: url("img/parents.png");
+}
+.icon-sakai-profile2{
+	background-image: url("img/address_book.png");
+}
+/*Copyright text */
+.sakaiCopyrightInfo{
+	color: rgb(44,62,80);
+}
+.portletBody{
+	font-family: "Lato";
+}
+#toolMenu li a:link,#toolMenu li a:hover, #toolMenu li a, #subSites li a:link, #subSites li a{
+	color: #3498db;
+}

@@ -18,5 +18,5 @@
     "css": ["customStyles.css", "bootstrap.css"],
     "matches": [ "http://sakai.claremont.edu/*", "https://sakai.claremont.edu/*"]}
   ],
-   "web_accessible_resources": ["customStyles.css", "bootstrap.css", "tab-right.gif", "tab-left.gif"]
+   "web_accessible_resources": ["customStyles.css", "bootstrap.css", "tab-right.gif", "tab-left.gif", "img/*"]
 }
