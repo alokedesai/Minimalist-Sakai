@@ -100,6 +100,13 @@ border-color: rgb(44,62,80);
 .icon-sakai-profile2{
 	background-image: url("img/address_book.png");
 }
+.icon-sakai-iframe, .icon-sakai-sitebrowser{
+	background-image: url("img/globe_af.png");
+}
+.icon-sakai-resetpass{
+	background-image: url("img/keys.png");
+}
+
 /*Copyright text */
 .sakaiCopyrightInfo{
 	color: rgb(44,62,80);
@@ -109,4 +116,8 @@ border-color: rgb(44,62,80);
 }
 #toolMenu li a:link,#toolMenu li a:hover, #toolMenu li a, #subSites li a:link, #subSites li a{
 	color: #3498db;
+}
+
+.navIntraTool {
+	background-color: #fff !important;
 }
